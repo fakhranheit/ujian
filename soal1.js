@@ -9,10 +9,10 @@ const lelang=(a)=>{
                 hargaAwal+= Math.ceil(hargaAwal*0.20)
             }
             if(hargaAwal>=30000000){
-                return `the items were sold`
+                return `sudah dijual`
             }  
     } while (menit<a);
-    return basicprice
+    return hargaAwal
 }
 console.log(lelang(2))
 console.log(lelang(50))
